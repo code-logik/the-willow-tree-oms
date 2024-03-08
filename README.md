@@ -20,3 +20,43 @@ To address the issue, restaurant owner Maria Zabala has approached Code-Logik, a
 The following documentation will treat the hypothetical case as a real-life business interaction.  
 <br>
 ## Table of Contents  
+1. [Project Proposal](#project-proposal)
+    - [Project Timeline](#project-timeline)
+8. [Source Code](#source-code)
+    - [Agile Development Lifecycle](#agile-development-lifecycle)<br><br>
+
+## Project Proposal  
+![Code-Logik Logo](docs/assets/project_proposal_logo.png)
+**PROJECT NAME:** The Willow Tree OMS  
+**PROJECT REFERENCE:** CS4233 CAPSTONE PROJECT 2024  
+**DATE:** 23 JAN 2024  
+
+The Willow Tree’s current Order Management System (OMS) allows customers to place orders at the table via a kiosk.  
+
+Although the current release is functional, the OMS limits menu items to those available during development. A redesign is necessary because the menu now features previously unavailable items.  
+
+The current OMS design has embedded all menu items in the source code and requires a redesign to accommodate future menu items.  
+
+Code-Logik proposes translating the OMS code to a more efficient language to accommodate highly interactive and dynamic content, migrating the menu items to a database for menu customization, integrating logic to connect to the database, and creating a privileged on-demand user interface to manage menu items.  
+
+The proposal aims to deliver The Willow Tree an easily accessible and manageable OMS capable of keeping pace with evolving menu items and providing the customer with the best possible dining experience.  
+
+To complete the redesign of The Willow Tree OMS, Code-Logik estimates a total of 13 weeks from start to finish.  
+
+### Project Timeline  
+<br>
+
+![Project Timeline](docs/assets/project_proposal_phase_table.png "Project Timeline")
+*Figure 1 Expected Timeline for Software Development Life Cycle.*
+
+Redesigning the Order Management System into a customizable dynamic OMS is the goal of this project. The OMS can reliably serve the embedded menu items. However, the OMS provides no flexibility in adding new menu items. Code-Logik will redesign the OMS into a manageable application without requiring a programming expert to customize the menu items. This project will undoubtedly provide The Willow Tree’s customers with the best possible dining experience by allowing It to adjust its menu anytime.  
+
+View the full-length [Project Proposal](docs/project_proposal.pdf) document.  
+<br>
+## Source Code  
+### Agile Development Lifecycle  
+<br>
+
+* **Concept**
+   
+    * [The Willow Tree OMS: Concept](https://github.com/users/code-logik/projects/9)
