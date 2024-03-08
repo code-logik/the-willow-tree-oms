@@ -19,3 +19,4 @@ To address the issue, restaurant owner Maria Zabala has approached Code-Logik, a
 <br>
 The following documentation will treat the hypothetical case as a real-life business interaction.  
 <br>
+## Table of Contents  
