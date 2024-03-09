@@ -6,6 +6,11 @@
 [![Static Badge](https://img.shields.io/badge/Adobe_Acrobat-FFFFFF?style=for-the-badge&logo=adobeacrobatreader&logoColor=%23FFFFFF&labelColor=%23EC1C24&color=%23111111)](https://www.adobe.com/acrobat.html)
 [![Static Badge](https://img.shields.io/badge/Adobe_Photoshop-FFFFFF?style=for-the-badge&logo=adobephotoshop&logoColor=%23111111&labelColor=%2331A8FF&color=%23111111)](https://www.adobe.com/products/photoshop.html)
 [![Static Badge](https://img.shields.io/badge/draw.io-FFFFFF?style=for-the-badge&logo=diagramsdotnet&logoColor=%23FFFFFF&labelColor=%23F08705&color=%23111111)](https://www.drawio.com/)
+[![Static Badge](https://img.shields.io/badge/Visual_Studio-FFFFFF?style=for-the-badge&logo=visualstudio&logoColor=%23FFFFFF&labelColor=%23111111&color=%235C2D91)](https://visualstudio.microsoft.com/)
+[![Static Badge](https://img.shields.io/badge/JSON-FFFFFF?style=for-the-badge&logo=json&logoColor=%23FFFFFF&labelColor=%23111111&color=%23FAF0E6)](https://www.json.org/json-en.html)
+[![Static Badge](https://img.shields.io/badge/Newtonsoft.Json-FFFFFF?style=for-the-badge&logo=nuget&logoColor=%23FFFFFF&labelColor=%23111111&color=%23004880)](https://www.nuget.org/packages/Newtonsoft.Json/)
+[![Static Badge](https://img.shields.io/badge/Framework_4.7.2-FFFFFF?style=for-the-badge&logoColor=%23FFFFFF&label=.NET&labelColor=%23111111&color=%23512BD4)](https://dotnet.microsoft.com/)
+[![Static Badge](https://img.shields.io/badge/C%23-FFFFFF?style=for-the-badge&logo=csharp&logoColor=%23FFFFFF&labelColor=%23111111&color=%23512BD4)](https://learn.microsoft.com/en-us/dotnet/csharp/)
 
 Professional Development for Computer Science  
 Capstone Project  
@@ -196,9 +201,14 @@ View the full-length [Modeling](docs/modeling.pdf) document.
 * **Concept**
    
     * [The Willow Tree OMS: Concept](https://github.com/users/code-logik/projects/9)
-    * [agile/concept-phase/1](https://github.com/code-logik/the-willow-tree-oms/tree/agile/concept-phase/1)
+        * Branch: [agile/concept-phase/1](https://github.com/code-logik/the-willow-tree-oms/tree/agile/concept-phase/1)
 
 * **Inception**
 
     * [The Willow Tree OMS: Inception](https://github.com/users/code-logik/projects/10)
-    * [agile/inception-phase/2](https://github.com/code-logik/the-willow-tree-oms/tree/agile/inception-phase/2)
+        * Branch: [agile/inception-phase/2](https://github.com/code-logik/the-willow-tree-oms/tree/agile/inception-phase/2)
+
+* **Iteration**
+
+    * [The Willow Tree OMS: Retrieve Menu Items Iteration](https://github.com/users/code-logik/projects/11)
+        * Branch: [agile/iteration-phase/3-1](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-1)
