@@ -1,16 +1,16 @@
 # The Willow Tree OMS
-[![Static Badge](https://img.shields.io/badge/License-FFFFFF?style=for-the-badge&logoColor=%23FFFFFF&label=MIT&labelColor=%23750014&color=%23111111)](https://github.com/code-logik/the-willow-tree-oms?tab=MIT-1-ov-file#)
-[![Static Badge](https://img.shields.io/badge/Markdown-FFFFFF?style=for-the-badge&logo=markdown&logoColor=%23FFFFFF&labelColor=%23111111&color=%23499BEA)](https://commonmark.org/)
-[![Static Badge](https://img.shields.io/badge/https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=for-the-badge&label=README&labelColor=%23111111)](https://github.com/RichardLitt/standard-readme)
-[![Static Badge](https://img.shields.io/badge/Microsoft_Word-FFFFFF?style=for-the-badge&logo=microsoftword&logoColor=%23FFFFFF&labelColor=%23111111&color=%232B579A)](https://www.microsoft.com/en-us/microsoft-365/word)
-[![Static Badge](https://img.shields.io/badge/Adobe_Acrobat-FFFFFF?style=for-the-badge&logo=adobeacrobatreader&logoColor=%23FFFFFF&labelColor=%23EC1C24&color=%23111111)](https://www.adobe.com/acrobat.html)
-[![Static Badge](https://img.shields.io/badge/Adobe_Photoshop-FFFFFF?style=for-the-badge&logo=adobephotoshop&logoColor=%23111111&labelColor=%2331A8FF&color=%23111111)](https://www.adobe.com/products/photoshop.html)
-[![Static Badge](https://img.shields.io/badge/draw.io-FFFFFF?style=for-the-badge&logo=diagramsdotnet&logoColor=%23FFFFFF&labelColor=%23F08705&color=%23111111)](https://www.drawio.com/)
-[![Static Badge](https://img.shields.io/badge/Visual_Studio-FFFFFF?style=for-the-badge&logo=visualstudio&logoColor=%23FFFFFF&labelColor=%23111111&color=%235C2D91)](https://visualstudio.microsoft.com/)
-[![Static Badge](https://img.shields.io/badge/JSON-FFFFFF?style=for-the-badge&logo=json&logoColor=%23FFFFFF&labelColor=%23111111&color=%23FAF0E6)](https://www.json.org/json-en.html)
-[![Static Badge](https://img.shields.io/badge/Newtonsoft.Json-FFFFFF?style=for-the-badge&logo=nuget&logoColor=%23FFFFFF&labelColor=%23111111&color=%23004880)](https://www.nuget.org/packages/Newtonsoft.Json/)
-[![Static Badge](https://img.shields.io/badge/Framework_4.7.2-FFFFFF?style=for-the-badge&logoColor=%23FFFFFF&label=.NET&labelColor=%23111111&color=%23512BD4)](https://dotnet.microsoft.com/)
-[![Static Badge](https://img.shields.io/badge/C%23-FFFFFF?style=for-the-badge&logo=csharp&logoColor=%23FFFFFF&labelColor=%23111111&color=%23512BD4)](https://learn.microsoft.com/en-us/dotnet/csharp/)
+[![Static Badge](https://img.shields.io/badge/License-FFFFFF?style=flat-square&logoColor=%23FFFFFF&label=MIT&labelColor=%23750014&color=%23111111)](https://github.com/code-logik/the-willow-tree-oms?tab=MIT-1-ov-file#)
+[![Static Badge](https://img.shields.io/badge/Markdown-FFFFFF?style=flat-square&logo=markdown&logoColor=%23FFFFFF&labelColor=%23111111&color=%23499BEA)](https://commonmark.org/)
+[![Static Badge](https://img.shields.io/badge/https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square&label=README&labelColor=%23111111)](https://github.com/RichardLitt/standard-readme)
+[![Static Badge](https://img.shields.io/badge/Microsoft_Word-FFFFFF?style=flat-square&logo=microsoftword&logoColor=%23FFFFFF&labelColor=%23111111&color=%232B579A)](https://www.microsoft.com/en-us/microsoft-365/word)
+[![Static Badge](https://img.shields.io/badge/Adobe_Acrobat-FFFFFF?style=flat-square&logo=adobeacrobatreader&logoColor=%23FFFFFF&labelColor=%23EC1C24&color=%23111111)](https://www.adobe.com/acrobat.html)
+[![Static Badge](https://img.shields.io/badge/Adobe_Photoshop-FFFFFF?style=flat-square&logo=adobephotoshop&logoColor=%23111111&labelColor=%2331A8FF&color=%23111111)](https://www.adobe.com/products/photoshop.html)
+[![Static Badge](https://img.shields.io/badge/draw.io-FFFFFF?style=flat-square&logo=diagramsdotnet&logoColor=%23FFFFFF&labelColor=%23F08705&color=%23111111)](https://www.drawio.com/)
+[![Static Badge](https://img.shields.io/badge/Visual_Studio-FFFFFF?style=flat-square&logo=visualstudio&logoColor=%23FFFFFF&labelColor=%23111111&color=%235C2D91)](https://visualstudio.microsoft.com/)
+[![Static Badge](https://img.shields.io/badge/JSON-FFFFFF?style=flat-square&logo=json&logoColor=%23FFFFFF&labelColor=%23111111&color=%23FAF0E6)](https://www.json.org/json-en.html)
+[![Static Badge](https://img.shields.io/badge/Newtonsoft.Json-FFFFFF?style=flat-square&logo=nuget&logoColor=%23FFFFFF&labelColor=%23111111&color=%23004880)](https://www.nuget.org/packages/Newtonsoft.Json/)
+[![Static Badge](https://img.shields.io/badge/Framework_4.7.2-FFFFFF?style=flat-square&logoColor=%23FFFFFF&label=.NET&labelColor=%23111111&color=%23512BD4)](https://dotnet.microsoft.com/)
+[![Static Badge](https://img.shields.io/badge/C%23-FFFFFF?style=flat-square&logo=csharp&logoColor=%23FFFFFF&labelColor=%23111111&color=%23512BD4)](https://learn.microsoft.com/en-us/dotnet/csharp/)
 
 Professional Development for Computer Science  
 Capstone Project  
@@ -212,3 +212,5 @@ View the full-length [Modeling](docs/modeling.pdf) document.
 
     * [The Willow Tree OMS: Retrieve Menu Items Iteration](https://github.com/users/code-logik/projects/11)
         * Branch: [agile/iteration-phase/3-1](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-1)
+    * [The Willow Tree OMS: View Menu Iteration](https://github.com/users/code-logik/projects/12)
+        * Branch: [agile/iteration-phase/3-2](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-2)
