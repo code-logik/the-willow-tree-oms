@@ -19,19 +19,19 @@ namespace OMS
     internal class Database
     {
         /// <value>
-        /// Property <c>EMBEDDED_MENU_RESOURCE</c> stores the embedded menu resource path.
+        /// Property <c>_EMBEDDED_MENU_RESOURCE</c> stores the embedded menu resource path.
         /// </value>
-        private const string EMBEDDED_MENU_RESOURCE = "OMS.Database.Menu.json";
+        private const string _EMBEDDED_MENU_RESOURCE = "OMS.Database.Menu.json";
 
         /// <value>
-        /// Property <c>MENU_DIRECTORY</c> stores the name of the directory where the database lives.
+        /// Property <c>_MENU_DIRECTORY</c> stores the name of the directory where the database lives.
         /// </value>
-        private const string MENU_DIRECTORY = "Database";
+        private const string _MENU_DIRECTORY = "Database";
 
         /// <value>
-        /// Property <c>MENU_FILE</c> stores the name of the database file.
+        /// Property <c>_MENU_FILE</c> stores the name of the database file.
         /// </value>
-        private const string MENU_FILE = "Menu.json";
+        private const string _MENU_FILE = "Menu.json";
 
         /// <value>
         /// Property <c>_Path</c> stores the path to the database file.
@@ -80,7 +80,7 @@ namespace OMS
         {
             string json;
             Assembly assembly = Assembly.GetExecutingAssembly();
-            using (Stream stream = assembly.GetManifestResourceStream(EMBEDDED_MENU_RESOURCE))
+            using (Stream stream = assembly.GetManifestResourceStream(_EMBEDDED_MENU_RESOURCE))
             {
                 using (StreamReader stream_reader = new StreamReader(stream))
                 {
@@ -95,9 +95,9 @@ namespace OMS
         /// </summary>
         private void create_data_dir()
         {
-            if (!Directory.Exists(MENU_DIRECTORY))
+            if (!Directory.Exists(_MENU_DIRECTORY))
             {
-                Directory.CreateDirectory(MENU_DIRECTORY);
+                Directory.CreateDirectory(_MENU_DIRECTORY);
             }
         }
 
@@ -119,8 +119,8 @@ namespace OMS
         {
             if (_Path == null)
             {
-                _Path = Path.Combine(Directory.GetCurrentDirectory(), MENU_DIRECTORY);
-                _Path = Path.Combine(_Path, MENU_FILE);
+                _Path = Path.Combine(Directory.GetCurrentDirectory(), _MENU_DIRECTORY);
+                _Path = Path.Combine(_Path, _MENU_FILE);
             }
         }
     }
