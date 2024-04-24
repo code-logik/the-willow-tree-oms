@@ -197,7 +197,7 @@ To test the correctness of the View Menu Iteration, a simple JSON database consi
   },
   ...
 ```
-*Figure 9 [JSON Database](src/ViewMenu/data/Menu.json)*
+*Figure 9 [JSON Database](test/ViewMenuTestTool/Database/Menu.json)*
 <br><br>
 
 ```
@@ -225,7 +225,7 @@ To test the correctness of the View Menu Iteration, a simple JSON database consi
   Console.WriteLine("\n");
   ...
 ```
-*Figure 10 [Test Specific Code](src/ViewMenu/Program.cs)*
+*Figure 10 [Test Specific Code](test/ViewMenuTestTool/Program.cs)*
 <br><br>
 The expected console output was a multi-period display of the six menu items in the JSON database. Since the console output was what was expected (Figure 11), the View Menu Test is considered a success. Therefore, the View Menu Iteration was closed, and the Customer User Interface Iteration was opened.  
 <br>
