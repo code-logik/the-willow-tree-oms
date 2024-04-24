@@ -13,6 +13,7 @@
 [![Static Badge](https://img.shields.io/badge/Newtonsoft.Json-FFFFFF?style=flat&logo=nuget&logoColor=%23FFFFFF&labelColor=%23111111&color=%23004880)](https://www.nuget.org/packages/Newtonsoft.Json/)
 [![Static Badge](https://img.shields.io/badge/Framework_4.7.2-FFFFFF?style=flat&logoColor=%23FFFFFF&label=.NET&labelColor=%23111111&color=%23512BD4)](https://dotnet.microsoft.com/)
 [![Static Badge](https://img.shields.io/badge/C%23-FFFFFF?style=flat&logo=csharp&logoColor=%23FFFFFF&labelColor=%23111111&color=%23512BD4)](https://learn.microsoft.com/en-us/dotnet/csharp/)
+[![Static Badge](https://img.shields.io/badge/XAML-%23FFFFFF?style=flat&logo=xaml&logoColor=%23FFFFFF&labelColor=%23111111&color=%230C54C2)](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/advanced/xaml-in-wpf?view=netframeworkdesktop-4.8)
 
 Professional Development for Computer Science  
 Capstone Project  
@@ -174,7 +175,8 @@ View the full-length [Modeling](docs/modeling.pdf) document.
 
 **Iteration**  
 1. [Project](https://github.com/users/code-logik/projects/11) | [Branch](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-1)
-2. [Project](https://github.com/users/code-logik/projects/12) | [Branch](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-2)<br><br>
+2. [Project](https://github.com/users/code-logik/projects/12) | [Branch](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-2)
+3. [Project](https://github.com/users/code-logik/projects/13) | [Branch](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-3)<br><br>
 
 ## Testing
 **VIEW MENU TEST**  
