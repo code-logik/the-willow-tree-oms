@@ -21,12 +21,12 @@ namespace OMS
         /// <value>
         /// Property <c>EMBEDDED_MENU_RESOURCE</c> stores the embedded menu resource path.
         /// </value>
-        private const string EMBEDDED_MENU_RESOURCE = "OMS.data.Menu.json";
+        private const string EMBEDDED_MENU_RESOURCE = "OMS.Database.Menu.json";
 
         /// <value>
         /// Property <c>MENU_DIRECTORY</c> stores the name of the directory where the database lives.
         /// </value>
-        private const string MENU_DIRECTORY = "data";
+        private const string MENU_DIRECTORY = "Database";
 
         /// <value>
         /// Property <c>MENU_FILE</c> stores the name of the database file.
