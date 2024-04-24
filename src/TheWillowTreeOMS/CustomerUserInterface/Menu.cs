@@ -17,8 +17,7 @@ namespace OMS
     {
         Breakfast,
         Lunch,
-        Dinner,
-        OpenMenu
+        Dinner
     }
 
     /// <summary>
@@ -27,14 +26,14 @@ namespace OMS
     internal class Menu
     {
         /// <value>
-        /// Property <c>CATEGORIES</c> stores the number of menu categories.
+        /// Property <c>_CATEGORIES</c> stores the number of menu categories.
         /// </value>
-        private const int CATEGORIES = 6;
+        private const int _CATEGORIES = 4;
 
         /// <value>
         /// Property <c>_Menu</c> stores a non-periodized menu.
         /// </value>
-        private List<List<MenuItem>> _Menu = new List<List<MenuItem>>();
+        private List<MenuItem> _Menu = new List<MenuItem>();
 
         /// <summary>
         /// Creates a master menu.
@@ -47,15 +46,13 @@ namespace OMS
         /// <summary>
         /// Current menu based on period.
         /// </summary>
-        /// <param name="period">
-        /// Current period.
-        /// </param>
+        /// <param name="period">Current period.</param>
         /// <returns>
         /// Menu of specified period.
         /// </returns>
-        public List<List<MenuItem>> current_menu(PERIOD period) 
+        public List<MenuItem> current_menu(PERIOD period) 
         {
-            List<List<MenuItem>> current = new List<List<MenuItem>>();
+            List<MenuItem> current = new List<MenuItem>();
             switch (period) 
             {
                 case PERIOD.Breakfast:
@@ -69,10 +66,6 @@ namespace OMS
                 case PERIOD.Dinner:
                     current = create_period_menu((int)PERIOD.Dinner);
                     break;
-
-                case PERIOD.OpenMenu:
-                    current = _Menu;
-                    break;
             }
             return current;
         }
@@ -80,27 +73,18 @@ namespace OMS
         /// <summary>
         /// Creates a periodized menu.
         /// </summary>
-        /// <param name="period">
-        /// Period of menu to create.
-        /// </param>
+        /// <param name="period">Period of menu to create.</param>
         /// <returns>
         /// Menu of specified period.
         /// </returns>
-        private List<List<MenuItem>> create_period_menu(int period)
+        private List<MenuItem> create_period_menu(int period)
         {
-            List<List<MenuItem>> menu = new List<List<MenuItem>>();
-            for (int i = 0; i < CATEGORIES; i++)
+            List<MenuItem> menu = new List<MenuItem>();
+            foreach (MenuItem item in _Menu)
             {
-                menu.Add(new List<MenuItem>());
-            }
-            foreach (List<MenuItem> category in _Menu)
-            {
-                foreach (MenuItem item in category)
+                if (item.PERIOD[period] == true)
                 {
-                    if (item.Period[period] == true)
-                    {
-                        menu[item.Category].Add(item);
-                    }
+                    menu.Add(item);
                 }
             }
             return menu;
@@ -111,16 +95,8 @@ namespace OMS
         /// </summary>
         private void create_master_menu()
         {
-            MenuItems menu_items = new MenuItems();
-            List<MenuItem> items = menu_items.Items;
-            for (int i = 0; i < CATEGORIES; i++)
-            {
-                _Menu.Add(new List<MenuItem>());
-            }
-            foreach (MenuItem item in items)
-            {
-                _Menu[item.Category].Add(item);
-            }
+            MenuItems menuitems = new MenuItems();
+            _Menu = menuitems.Items;
         }
     }
 }
