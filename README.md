@@ -37,7 +37,8 @@ The following documentation will treat the hypothetical case as a real-life busi
 3. [Risk Management](#risk-management)
 4. [Modeling](#modeling)
 5. [Development](#development)
-6. [License](#license)<br><br>
+6. [Testing](#testing)
+7. [License](#license)<br><br>
 
 ## Project Proposal  
 ![Code-Logik Logo](docs/assets/project_proposal_logo.png)
@@ -172,7 +173,68 @@ View the full-length [Modeling](docs/modeling.pdf) document.
 - [Project](https://github.com/users/code-logik/projects/10) | [Branch](https://github.com/code-logik/the-willow-tree-oms/tree/agile/inception-phase/2)<br>
 
 **Iteration**  
-1. [Project](https://github.com/users/code-logik/projects/11) | [Branch](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-1)<br><br>
+1. [Project](https://github.com/users/code-logik/projects/11) | [Branch](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-1)
+2. [Project](https://github.com/users/code-logik/projects/12) | [Branch](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-2)<br><br>
+
+## Testing
+**VIEW MENU TEST**  
+<br>
+To test the correctness of the View Menu Iteration, a simple JSON database consisting of six menu items (Figure 9) was used in conjunction with code specific to testing (Figure 10).<br><br>  
+
+```
+  ...
+  {
+    "Name": "Coffee",
+    "Image": "none",
+    "Description": "Black coffee",
+    "Category": 4,
+    "Price": 5.99,
+    "Period": [
+      true,
+      true,
+      true
+    ]
+  },
+  ...
+```
+*Figure 9 [JSON Database](src/ViewMenu/data/Menu.json)*
+<br><br>
+
+```
+  ...
+  Menu menu = new Menu();
+  List<List<MenuItem>> current_menu = new List<List<MenuItem>>();
+
+  Console.WriteLine("Breakfast Menu\n");
+  current_menu = menu.current_menu(PERIOD.Breakfast);
+  foreach (List<MenuItem> category in current_menu)
+  {
+    foreach (MenuItem item in category)
+    {
+      Console.WriteLine
+      (
+        $"  {Convert.ToInt32(item.Period[0])}  " +
+        $"  {Convert.ToInt32(item.Period[1])}  " +
+        $"  {Convert.ToInt32(item.Period[2])}  " +
+        $"  {item.Name}  " +
+        $"  {item.Description}  " +
+        $"  {item.Price}  "
+      );
+    }
+  }
+  Console.WriteLine("\n");
+  ...
+```
+*Figure 10 [Test Specific Code](src/ViewMenu/Program.cs)*
+<br><br>
+The expected console output was a multi-period display of the six menu items in the JSON database. Since the console output was what was expected (Figure 11), the View Menu Test is considered a success. Therefore, the View Menu Iteration was closed, and the Customer User Interface Iteration was opened.  
+<br>
+
+![View Menu Test Console Output](test/ViewMenuTestTool-Results.png)  
+*Figure 11 View Menu Test Console Output*  
+
+View the full-length [Testing](docs/testing.pdf) document.  
+<br>
 
 ## License  
 The Willow Tree OMS is licensed under the [MIT License](https://github.com/code-logik/the-willow-tree-oms?tab=MIT-1-ov-file#).<br>
