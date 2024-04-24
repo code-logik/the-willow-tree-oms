@@ -1,74 +1,226 @@
 [
   {
-    "Name": "Coffee",
-    "Image": "none",
-    "Description": "Black coffee",
-    "Category": 4,
-    "Price": 5.99,
-    "Period": [
-      true,
-      true,
-      true
-    ]
+    "CATEGORY": 1,
+    "NAME": "Entree 1",
+    "PRICE": 15.99,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
   },
   {
-    "Name": "Cheesecake",
-    "Image": "none",
-    "Description": "Strawberry Cheesecake",
-    "Category": 5,
-    "Price": 10.99,
-    "Period": [
-      true,
-      true,
-      true
-    ]
+    "CATEGORY": 1,
+    "NAME": "Entree 2",
+    "PRICE": 14.29,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
   },
   {
-    "Name": "French Fries",
-    "Image": "none",
-    "Description": "Crispy French Fries",
-    "Category": 3,
-    "Price": 15.99,
-    "Period": [
-      false,
-      true,
-      true
-    ]
+    "CATEGORY": 1,
+    "NAME": "Entree 3",
+    "PRICE": 14.89,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
   },
   {
-    "Name": "Tuna Salad",
-    "Image": "none",
-    "Description": "Ahi Tuna Salad",
-    "Category": 2,
-    "Price": 20.99,
-    "Period": [
-      false,
-      true,
-      true
-    ]
+    "CATEGORY": 1,
+    "NAME": "Entree 4",
+    "PRICE": 16.99,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
   },
   {
-    "Name": "Tomato Soup",
-    "Image": "none",
-    "Description": "Creamy Tomato Soup",
-    "Category": 1,
-    "Price": 25.99,
-    "Period": [
-      false,
-      true,
-      true
-    ]
+    "CATEGORY": 1,
+    "NAME": "Entree 5",
+    "PRICE": 12.99,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
   },
   {
-    "Name": "Ribeye Steak",
-    "Image": "none",
-    "Description": "Bone-In Ribeye Steak",
-    "Category": 0,
-    "Price": 25.99,
-    "Period": [
-      false,
-      false,
-      true
-    ]
+    "CATEGORY": 1,
+    "NAME": "Entree 6",
+    "PRICE": 15.19,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 1,
+    "NAME": "Entree 7",
+    "PRICE": 16.19,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 1,
+    "NAME": "Entree 8",
+    "PRICE": 15.29,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 2,
+    "NAME": "Side 1",
+    "PRICE": 3.29,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 2,
+    "NAME": "Side 2",
+    "PRICE": 2.69,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 2,
+    "NAME": "Side 3",
+    "PRICE": 1.99,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 2,
+    "NAME": "Side 4",
+    "PRICE": 1.89,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 2,
+    "NAME": "Side 5",
+    "PRICE": 2.19,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 2,
+    "NAME": "Side 6",
+    "PRICE": 2.29,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 2,
+    "NAME": "Side 7",
+    "PRICE": 3.19,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 2,
+    "NAME": "Side 8",
+    "PRICE": 2.69,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 3,
+    "NAME": "Dessert 1",
+    "PRICE": 8.69,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 3,
+    "NAME": "Dessert 2",
+    "PRICE": 7.99,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 3,
+    "NAME": "Dessert 3",
+    "PRICE": 8.99,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 3,
+    "NAME": "Dessert 4",
+    "PRICE": 10.19,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 3,
+    "NAME": "Dessert 5",
+    "PRICE": 10.19,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 3,
+    "NAME": "Dessert 6",
+    "PRICE": 5.89,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 3,
+    "NAME": "Dessert 7",
+    "PRICE": 7.49,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 3,
+    "NAME": "Dessert 8",
+    "PRICE": 7.39,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 4,
+    "NAME": "Drink 1",
+    "PRICE": 5.49,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 4,
+    "NAME": "Drink 2",
+    "PRICE": 5.19,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 4,
+    "NAME": "Drink 3",
+    "PRICE": 3.19,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 4,
+    "NAME": "Drink 4",
+    "PRICE": 3.19,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 4,
+    "NAME": "Drink 5",
+    "PRICE": 5.79,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 4,
+    "NAME": "Drink 6",
+    "PRICE": 4.39,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 4,
+    "NAME": "Drink 7",
+    "PRICE": 8.99,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
+  },
+  {
+    "CATEGORY": 4,
+    "NAME": "Drink 8",
+    "PRICE": 9.99,
+    "IMAGE": "temp.png",
+    "PERIOD": [ true, true, true ]
   }
 ]
