@@ -59,7 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <EmbeddedResource Include="data\Menu.json" />
+    <EmbeddedResource Include="Database\Menu.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
