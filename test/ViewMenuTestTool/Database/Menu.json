@@ -1,0 +1,74 @@
+[
+  {
+    "Name": "Coffee",
+    "Image": "none",
+    "Description": "Black coffee",
+    "Category": 4,
+    "Price": 5.99,
+    "Period": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "Name": "Cheesecake",
+    "Image": "none",
+    "Description": "Strawberry Cheesecake",
+    "Category": 5,
+    "Price": 10.99,
+    "Period": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "Name": "French Fries",
+    "Image": "none",
+    "Description": "Crispy French Fries",
+    "Category": 3,
+    "Price": 15.99,
+    "Period": [
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "Name": "Tuna Salad",
+    "Image": "none",
+    "Description": "Ahi Tuna Salad",
+    "Category": 2,
+    "Price": 20.99,
+    "Period": [
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "Name": "Tomato Soup",
+    "Image": "none",
+    "Description": "Creamy Tomato Soup",
+    "Category": 1,
+    "Price": 25.99,
+    "Period": [
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "Name": "Ribeye Steak",
+    "Image": "none",
+    "Description": "Bone-In Ribeye Steak",
+    "Category": 0,
+    "Price": 25.99,
+    "Period": [
+      false,
+      false,
+      true
+    ]
+  }
+]
