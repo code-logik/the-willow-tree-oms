@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--// Color Definitions //-->
+    <Color x:Key="0E0E10" A="255" R="14" G="14" B="16" />
+    <Color x:Key="F5F5F5" A="255" R="245" G="245" B="245" />
+    <Color x:Key="D3D3D3" A="255" R="211" G="211" B="211" />
+    <Color x:Key="5F5F5F" A="255" R="95" G="95" B="95" />
+
+    <!--// Brush Definitions//-->
+    <SolidColorBrush x:Key="Jet_Black" Color="{StaticResource 0E0E10}" />
+    <SolidColorBrush x:Key="White_Smoke" Color="{StaticResource F5F5F5}" />
+    <SolidColorBrush x:Key="Light_Gray" Color="{StaticResource D3D3D3}" />
+    <SolidColorBrush x:Key="Granite_Gray" Color="{StaticResource 5F5F5F}" />
+</ResourceDictionary>
