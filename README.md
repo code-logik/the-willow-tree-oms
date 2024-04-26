@@ -39,7 +39,11 @@ The following documentation will treat the hypothetical case as a real-life busi
 4. [Modeling](#modeling)
 5. [Development](#development)
 6. [Testing](#testing)
-7. [License](#license)<br><br>
+7. [Build](#build)
+8. [Download](#download)
+9. [Installation](#installation)
+10. [Usage](#usage)
+11. [License](#license)<br><br>
 
 ## Project Proposal  
 ![Code-Logik Logo](docs/assets/project_proposal_logo.png)
@@ -176,7 +180,10 @@ View the full-length [Modeling](docs/modeling.pdf) document.
 **Iteration**  
 1. [Project](https://github.com/users/code-logik/projects/11) | [Branch](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-1)
 2. [Project](https://github.com/users/code-logik/projects/12) | [Branch](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-2)
-3. [Project](https://github.com/users/code-logik/projects/13) | [Branch](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-3)<br><br>
+3. [Project](https://github.com/users/code-logik/projects/13) | [Branch](https://github.com/code-logik/the-willow-tree-oms/tree/agile/iteration-phase/3-3)<br>
+
+**Release**  
+- [Project](https://github.com/users/code-logik/projects/15) | [Branch](https://github.com/code-logik/the-willow-tree-oms/tree/agile/release-phase/4)<br><br>
 
 ## Testing
 **VIEW MENU TEST**  
@@ -236,6 +243,40 @@ The expected console output was a multi-period display of the six menu items in 
 *Figure 11 View Menu Test Console Output*  
 
 View the full-length [Testing](docs/testing.pdf) document.  
+<br>
+## Build  
+To build from source code:  
+1. Download the contents of the TheWillowTreeOMS directory.
+2. Open the TheWillowTreeOMS.sln in Visual Studio 2022.
+3. Select **Build > Batch Build** in the menu bar.
+4. Locate the *Release Configurator* of the *CustomerUserInterface Project* and check the **Build** checkbox.
+5. Locate the *Release Configurator* of the *TheWillowTreeOMS Project* and check the **Build** checkbox.
+6. Click the **Build** button.
+7. Navigate to the *Release* folder in the *TheWillowTreeOMS* project folder to find the **setup.exe** and **TheWillowTreeOMS.msi**.<br>
+
+[Source Code v1.0.0]()<br><br>
+
+## Download  
+To download the pre-built installer:  
+1. Download both the **setup.exe** and **TheWillowTreeOMS.msi** files into the same folder.<br>
+
+[Installer v1.0.0]()<br><br>
+
+## Installation  
+To install The Willow Tree OMS:  
+1.	Run **setup.exe** to start the Setup Wizard and click **Next**.
+2.	Select an installation folder or use the default *Desktop* location for ease of use.
+3.	Select **Everyone** and click **Next**.
+4.	Click **Next** to start the installation.
+5.	Click **Close** to complete the installation.<br>
+
+**FILES INSTALLED**  
+
+![Files Installed](docs/assets/run_oms_exe.png)  
+*Figure 12 Files Installed*  
+<br>
+## Usage  
+### Lorem Ipsum Use   
 <br>
 
 ## License  
