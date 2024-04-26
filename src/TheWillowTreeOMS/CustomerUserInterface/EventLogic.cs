@@ -64,6 +64,7 @@ namespace CustomerUserInterface
             Credit.Content = "CANCEL";
             SplashScreen.Visibility = Visibility.Visible;
             PaymentProcessingModal.Visibility = Visibility.Collapsed;
+            PaymentModal.Visibility = Visibility.Collapsed;
         }
 
         /// <summary>
@@ -114,6 +115,8 @@ namespace CustomerUserInterface
         /// </summary>
         private void PayBill_Click(bool process) 
         {
+            PaymentModal.Visibility = Visibility.Visible;
+
             if (process == false)
             {
                 if (Credit.IsEnabled == false)
@@ -210,6 +213,19 @@ namespace CustomerUserInterface
         }
 
         /// <summary>
+        /// Exit program logic.
+        /// </summary>
+        /// <param name="sender">Object sending event.</param>
+        /// <param name="e">Parameters.</param>
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Escape) 
+            {
+                Application.Current.Shutdown();
+            }
+        }
+
+        /// <summary>
         /// Credit card payment button event logic.
         /// </summary>
         /// <param name="sender">Object sending event.</param>
@@ -228,12 +244,12 @@ namespace CustomerUserInterface
                 OrderMessageTopBorder.Visibility = Visibility.Visible;
                 OrderMessage.Content = "☙ Thank You for Your Business! ❧";
                 OrderMessageBottomBorder.Visibility = Visibility.Visible;
+                PaymentModal.Visibility = Visibility.Collapsed;
                 TipModal.Visibility = Visibility.Visible;
             }
             else if ((string)_sender.Content == "PAY NOW" && _Order.Count != 0)
             {
                 PaymentProcessingModal.Visibility = Visibility.Visible;
-                PaymentModal.Visibility = Visibility.Collapsed;
                 PaymentProcessingModalText.Text = "⏳  Processing Payment...";
                 PayBill_Click(true);
                 _ = CloseOrder(true);
@@ -263,12 +279,12 @@ namespace CustomerUserInterface
                 OrderMessageTopBorder.Visibility = Visibility.Visible;
                 OrderMessage.Content = "☙ Thank You for Your Business! ❧";
                 OrderMessageBottomBorder.Visibility = Visibility.Visible;
+                PaymentModal.Visibility = Visibility.Collapsed;
                 TipModal.Visibility = Visibility.Visible;
             }
             else if ((string)_sender.Content == "PAY NOW" && _Order.Count != 0)
             {
                 PaymentProcessingModal.Visibility = Visibility.Visible;
-                PaymentModal.Visibility = Visibility.Collapsed;
                 PaymentProcessingModalText.Text = "⏳  Notifying Server...";
                 PayBill_Click(true);
                 _ = CloseOrder(true);
