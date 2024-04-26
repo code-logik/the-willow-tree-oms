@@ -13,7 +13,8 @@
         ResizeMode="NoResize" 
         WindowStartupLocation="CenterScreen" 
         Background="Black" 
-        Foreground="{StaticResource White_Smoke}">
+        Foreground="{StaticResource White_Smoke}"
+        KeyDown="Window_KeyDown">
     <Window.CommandBindings>
         <CommandBinding Command="{x:Static local:CustomCommands.Minus}"
                         Executed="ExecutedMinus"
@@ -30,11 +31,13 @@
             <ColumnDefinition Width="320" />
         </Grid.ColumnDefinitions>
         <Border Grid.ColumnSpan="2"
-                Background="{StaticResource Jet_Black}"
                 Margin="5"
                 CornerRadius="0"
                 BorderBrush="{StaticResource White_Smoke}"
                 BorderThickness="0,2,0,2">
+            <Border.Background>
+                <ImageBrush ImageSource="/splash.jpeg" Opacity="0.5" Stretch="UniformToFill"/>
+            </Border.Background>
         </Border>
         <Grid Grid.Column="0" Width="Auto" Height="540">
             <Border Margin="20,20,10,20"
@@ -340,7 +343,7 @@
             </Border>
         </Grid>
         <Grid x:Name="PaymentModal" Grid.ColumnSpan="1" Visibility="Collapsed">
-            <Grid Background="Black" Opacity="0.50" />
+            <Grid Margin="20,20,10,20" Background="Black" Opacity="0.50" />
         </Grid>
         <Grid x:Name="PaymentProcessingModal" Grid.ColumnSpan="2" Visibility="Collapsed">
             <Grid Background="Black" Opacity="0.50" />
@@ -356,6 +359,9 @@
         <Grid x:Name="SplashScreen" Grid.ColumnSpan="2" Visibility="Collapsed">
             <Grid Background="Black" Opacity="1" />
             <Border Style="{StaticResource OMSSplashScreen}">
+                <Border.Background>
+                    <ImageBrush ImageSource="/splash.jpeg" Opacity="0.4" Stretch="UniformToFill"/>
+                </Border.Background>
                 <StackPanel Orientation="Vertical">
                     <Border BorderBrush="{StaticResource White_Smoke}" BorderThickness="0,2,0,0" Margin="60,60,60,20" />
                     <TextBlock Text="The Willow Tree"
