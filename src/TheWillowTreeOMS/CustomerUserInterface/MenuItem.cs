@@ -209,7 +209,7 @@ namespace OMS
             TextBlock name = new TextBlock
             {
                 Text = NAME,
-                FontSize = 14,
+                FontSize = 13,
                 FontWeight = FontWeights.Bold,
                 Foreground = new SolidColorBrush(_White_Smoke),
                 HorizontalAlignment = HorizontalAlignment.Center,
@@ -218,7 +218,7 @@ namespace OMS
 
             TextBlock price = new TextBlock
             {
-                Text = $"PRICE: {PRICE}",
+                Text = $"{PRICE}", //PRICE: 
                 FontSize = 10,
                 FontWeight = FontWeights.Bold,
                 Foreground = new SolidColorBrush(_White_Smoke),
