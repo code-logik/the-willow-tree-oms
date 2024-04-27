@@ -253,7 +253,7 @@ To build from source code:
 5. Locate the *Release Configurator* of the *CustomerUserInterface Project* and check the **Build** checkbox.
 6. Locate the *Release Configurator* of the *TheWillowTreeOMS Project* and check the **Build** checkbox.
 7. Click the **Build** button.
-8. Navigate to the Release folder inside the TheWillowTreeOMS subdirectory to find the **setup.exe** and **TheWillowTreeOMS.msi**.<br><br>
+8. Navigate to the Release folder to find the **setup.exe** and **TheWillowTreeOMS.msi**.<br><br>
 
 ## Pre-Built Installer  
 To download the pre-built installer:  
