@@ -10,13 +10,8 @@ To install The Willow Tree OMS:
 2.	Select an installation folder or use the default *Desktop* location for ease of use.
 3.	Select **Everyone** and click **Next**.
 4.	Click **Next** to start the installation.
-5.	Click **Close** to complete the installation.<br>
+5.	Click **Close** to complete the installation.<br><br>
 
-**FILES INSTALLED**  
-
-![Files Installed](docs/assets/run_oms_exe.png)  
-*Files Installed*  
-<br>
 ## Usage  
 **PREREQUISITE:** TheWillowTreeOMS (OMS.exe) is actively running.<br><br>
 **How to Use:**
