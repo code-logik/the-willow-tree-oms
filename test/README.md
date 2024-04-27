@@ -1,6 +1,6 @@
 ---
 
-## Agile Iteration Tests
+## Iteration Tests
 **Retrieve Menu Items Test**  
 - [Source Code](RetrieveMenuItemsTestTool)<br>
 
