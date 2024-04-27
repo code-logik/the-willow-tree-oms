@@ -30,7 +30,7 @@ namespace OMS
         public string[] NewOrder()
         {
             // stub 
-            string[] servertable = { "Elly May Clampett", "62"};
+            string[] servertable = { "Elly May Clampett", "10"};
             return servertable;
         }
 
