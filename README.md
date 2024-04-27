@@ -255,7 +255,7 @@ To build from source code:
 7. Click the **Build** button.
 8. Navigate to the Release folder inside the TheWillowTreeOMS subdirectory to find the **setup.exe** and **TheWillowTreeOMS.msi**.<br><br>
 
-## Download  
+## Pre-Built Installer  
 To download the pre-built installer:  
 1. Download the [latest release](https://github.com/code-logik/the-willow-tree-oms/releases) and unpack.
 2. Navigate to the build directory to find the **setup.exe** and **TheWillowTreeOMS.msi**.<br><br>
@@ -274,9 +274,8 @@ To install The Willow Tree OMS:
 *Figure 12 Files Installed*  
 <br>
 ## Usage  
-**PREREQUISITE:** TheWillowTreeOMS (OMS.exe) is actively running.  
-
-**How to place an order using The Willow Tree OMS:**
+**PREREQUISITE:** TheWillowTreeOMS (OMS.exe) is actively running.<br><br>
+**How to Use:**
 1. Tap anywhere on the Splash Screen to start a new order.
 2. Tap **ENTREES**, **SIDES**, **DESSERTS**, or **DRINKS** to view the corresponding menu category menu items.
 3. Tap the menu item **➕** or **➖** button to add or remove the item from your order.
