@@ -254,13 +254,13 @@ To build from source code:
 6. Click the **Build** button.
 7. Navigate to the *Release* folder in the *TheWillowTreeOMS* project folder to find the **setup.exe** and **TheWillowTreeOMS.msi**.<br>
 
-[Source Code v1.0.0]()<br><br>
+[Source Code v1.0.0](https://github.com/code-logik/the-willow-tree-oms/tree/69786cc7485ee04c8a7d49cd632c8979cf840961/src/TheWillowTreeOMS)<br><br>
 
 ## Download  
 To download the pre-built installer:  
 1. Download both the **setup.exe** and **TheWillowTreeOMS.msi** files into the same folder.<br>
 
-[Installer v1.0.0]()<br><br>
+[Installer v1.0.0](https://github.com/code-logik/the-willow-tree-oms/tree/69786cc7485ee04c8a7d49cd632c8979cf840961/build)<br><br>
 
 ## Installation  
 To install The Willow Tree OMS:  
