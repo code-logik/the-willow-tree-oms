@@ -39,8 +39,8 @@ The following documentation will treat the hypothetical case as a real-life busi
 4. [Modeling](#modeling)
 5. [Development](#development)
 6. [Testing](#testing)
-7. [Build](#build)
-8. [Download](#download)
+7. [Source Build](#source-build)
+8. [Pre-Built Installer](#pre-built-installer)
 9. [Installation](#installation)
 10. [Usage](#usage)
 11. [License](#license)<br><br>
@@ -244,7 +244,7 @@ The expected console output was a multi-period display of the six menu items in 
 
 View the full-length [Testing](docs/testing.pdf) document.  
 <br>
-## Build  
+## Source Build  
 To build from source code:  
 1. Download the [latest release](https://github.com/code-logik/the-willow-tree-oms/releases) and unpack.
 2. Navigate to the src directory and then to the TheWillowTreeOMS subdirectory.
