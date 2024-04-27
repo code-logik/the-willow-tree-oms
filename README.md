@@ -246,21 +246,19 @@ View the full-length [Testing](docs/testing.pdf) document.
 <br>
 ## Build  
 To build from source code:  
-1. Download the contents of the TheWillowTreeOMS directory.
-2. Open the TheWillowTreeOMS.sln in Visual Studio 2022.
-3. Select **Build > Batch Build** in the menu bar.
-4. Locate the *Release Configurator* of the *CustomerUserInterface Project* and check the **Build** checkbox.
-5. Locate the *Release Configurator* of the *TheWillowTreeOMS Project* and check the **Build** checkbox.
-6. Click the **Build** button.
-7. Navigate to the *Release* folder in the *TheWillowTreeOMS* project folder to find the **setup.exe** and **TheWillowTreeOMS.msi**.<br>
-
-[Source Code v1.0.0](https://github.com/code-logik/the-willow-tree-oms/tree/69786cc7485ee04c8a7d49cd632c8979cf840961/src/TheWillowTreeOMS)<br><br>
+1. Download the [latest release](https://github.com/code-logik/the-willow-tree-oms/releases) and unpack.
+2. Navigate to the src directory and then to the TheWillowTreeOMS subdirectory.
+3. Open the TheWillowTreeOMS.sln in Visual Studio 2022.
+4. Select **Build > Batch Build** in the menu bar.
+5. Locate the *Release Configurator* of the *CustomerUserInterface Project* and check the **Build** checkbox.
+6. Locate the *Release Configurator* of the *TheWillowTreeOMS Project* and check the **Build** checkbox.
+7. Click the **Build** button.
+8. Navigate to the Release folder inside the TheWillowTreeOMS subdirectory to find the **setup.exe** and **TheWillowTreeOMS.msi**.<br><br>
 
 ## Download  
 To download the pre-built installer:  
-1. Download both the **setup.exe** and **TheWillowTreeOMS.msi** files into the same folder.<br>
-
-[Installer v1.0.0](https://github.com/code-logik/the-willow-tree-oms/tree/69786cc7485ee04c8a7d49cd632c8979cf840961/build)<br><br>
+1. Download the [latest release](https://github.com/code-logik/the-willow-tree-oms/releases) and unpack.
+2. Navigate to the build directory to find the **setup.exe** and **TheWillowTreeOMS.msi**.<br><br>
 
 ## Installation  
 To install The Willow Tree OMS:  
