@@ -16,7 +16,6 @@
 [![Static Badge](https://img.shields.io/badge/XAML-%23FFFFFF?style=flat&logo=xaml&logoColor=%23FFFFFF&labelColor=%23111111&color=%230C54C2)](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/advanced/xaml-in-wpf?view=netframeworkdesktop-4.8)
 [![Static Badge](https://img.shields.io/badge/Wix-FFFFFF?style=flat&logo=wix&logoColor=%23FFFFFF&labelColor=%23111111&color=%230C6EFC)](https://www.wix.com/)
 [![Static Badge](https://img.shields.io/badge/Canva-FFFFFF?style=flat&logo=canva&logoColor=%23FFFFFF&labelColor=%23111111&color=%2300C4CC)](https://www.canva.com/)
-[![Static Badge](https://img.shields.io/badge/OBS%20Studio-FFFFFF?style=flat&logo=obsstudio&logoColor=%23FFFFFF&labelColor=%23111111&color=%23302E31)](https://obsproject.com/)
 
 Professional Development for Computer Science  
 Capstone Project  
