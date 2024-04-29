@@ -239,7 +239,7 @@ To test the correctness of the View Menu Iteration, a simple JSON database consi
 The expected console output was a multi-period display of the six menu items in the JSON database. Since the console output was what was expected (Figure 11), the View Menu Test is considered a success. Therefore, the View Menu Iteration was closed, and the Customer User Interface Iteration was opened.  
 <br>
 
-![View Menu Test Console Output](test/view-menu-test.png)  
+![View Menu Test Console Output](test/ViewMenuTestTool-Results.png)  
 *Figure 11 View Menu Test Console Output*  
 
 View the full-length [Testing](docs/testing.pdf) document.  
