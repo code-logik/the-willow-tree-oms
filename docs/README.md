@@ -6,7 +6,8 @@
 3. [Risk Management Plan](risk_management_plan.pdf)
 4. [Modeling](modeling.pdf)
 5. [Testing](testing.pdf)
-6. [The Willow Tree OMS Kiosk Demo](The-Willow-Tree-OMS-Kiosk-Demo.mp4)<br><br>
+6. [The Willow Tree OMS Kiosk Demo](The-Willow-Tree-OMS-Kiosk-Demo.mp4)
+7. [PowerPoint Presentation](capstone_presentation.pptx)<br><br>
 
 ___
 
