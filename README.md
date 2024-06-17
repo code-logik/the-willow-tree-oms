@@ -28,8 +28,12 @@ Northeastern State University
 The repository includes the project proposal, documentation, and source code.  
 <br>
 <a href="https://code-logik.com/CS4233/Capstone/The-Willow-Tree-OMS-Kiosk-Demo.mp4" target="_blank">The Willow Tree OMS Kiosk Demo</a>  
-[PowerPoint Presentation](https://github.com/code-logik/the-willow-tree-oms/raw/main/docs/capstone_presentation.pptx)
-<br><br>
+[PowerPoint Presentation](https://github.com/code-logik/the-willow-tree-oms/raw/main/docs/capstone_presentation.pptx)  
+<br>
+![Splash](docs/assets/splashscreen-screenshot.png)  
+<br>
+![Order](docs/assets/order-screenshot.png)  
+<br>
 ## Hypothetical Case  
 A mid-scale restaurant in Tahlequah called The Willow Tree utilizes a website-based Order Management System (OMS) that allows customers to place orders at their table using a kiosk. However, the OMS has been facing intermittent performance and security issues due to the software's website-based deployment. Therefore, the OMS requires an overhaul to improve its performance and better secure data.  
 <br>
