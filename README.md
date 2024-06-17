@@ -27,7 +27,7 @@ Northeastern State University
 <br>
 The repository includes the project proposal, documentation, and source code.  
 <br>
-<a href="https://code-logik.com/The-Willow-Tree-OMS-Kiosk-Demo.mp4" target="_blank">The Willow Tree OMS Kiosk Demo</a>  
+<a href="https://code-logik.com/CS4233/Capstone/The-Willow-Tree-OMS-Kiosk-Demo.mp4" target="_blank">The Willow Tree OMS Kiosk Demo</a>  
 [PowerPoint Presentation](https://github.com/code-logik/the-willow-tree-oms/raw/main/docs/capstone_presentation.pptx)
 <br><br>
 ## Hypothetical Case  
