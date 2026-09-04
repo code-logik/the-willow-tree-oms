@@ -17,16 +17,40 @@
 [![Static Badge](https://img.shields.io/badge/Wix-FFFFFF?style=flat&logo=wix&logoColor=%23FFFFFF&labelColor=%23111111&color=%230C6EFC)](https://www.wix.com/)
 [![Static Badge](https://img.shields.io/badge/Canva-FFFFFF?style=flat&logo=canva&logoColor=%23FFFFFF&labelColor=%23111111&color=%2300C4CC)](https://www.canva.com/)
 
-Professional Development for Computer Science  
-Capstone Project  
+## Project Overview
+
+The Willow Tree OMS is a C#/.NET desktop order-management system developed as an end-to-end software engineering project.
+
+The project demonstrates the complete Software Development Life Cycle (SDLC), including requirements analysis, risk management, system modeling, Agile development, implementation, testing, packaging, deployment, and technical documentation.
+
+The application was designed around a hypothetical restaurant environment in which customers use a kiosk-based Order Management System to browse menu items, build an order, submit selections, and complete payment.
+
+### Technical Highlights
+
+- C# and .NET Framework 4.7.2
+- XAML-based desktop user interface
+- JSON-based application data
+- Requirements engineering
+- Risk analysis and mitigation planning
+- UML and system modeling
+- Agile development lifecycle
+- Application testing
+- Installer packaging and deployment
+- Technical and user documentation
+
+### Project Background
+
+This project was originally developed as my **Computer Science Capstone Project** for **CS 4233 – Professional Development for Computer Science** at Northeastern State University.
+
+**Author:** Mark Sarasua, Jr.  
+**Instructor:** Ernst Bekkering, Ph.D.  
+**University:** Northeastern State University  
+**Year:** 2024
+
+The repository contains the source code, project proposal, requirements documentation, risk-management documentation, system models, testing artifacts, installation package, and supporting project documentation.
+
 <br>
-Mark Sarasua, Jr.  
-Ernst Bekkering, Ph.D.  
-CS 4233  
-Northeastern State University  
-<br>
-The repository includes the project proposal, documentation, and source code.  
-<br>
+
 <a href="https://code-logik.com/CS4233/Capstone/The-Willow-Tree-OMS-Kiosk-Demo.mp4" target="_blank">The Willow Tree OMS Kiosk Demo</a>  
 [PowerPoint Presentation](https://github.com/code-logik/the-willow-tree-oms/raw/main/docs/capstone_presentation.pptx)  
 <br>
